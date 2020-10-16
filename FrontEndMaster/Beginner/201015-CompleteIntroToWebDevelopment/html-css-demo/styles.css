@@ -1,0 +1,96 @@
+.main-brand {
+    font-size: 60px;
+    text-align: center;
+    font-weight: normal;
+    font-family: 'Great Vibes', cursive;
+    margin-top: 60px;
+    margin-bottom: 60px;
+}
+
+.row {
+    display: flex;
+    align-items: stretch;
+}
+
+.story {
+    border: 1px black solid;
+    padding: 5px;
+}
+
+.story-title {
+    font-size: 30px;
+    font-weight: normal;
+    font-style: italic;
+    margin: 15px 0;
+    text-align: center;
+}
+
+.story-image {
+    width: 100%;
+}
+
+.story-text {
+    line-height: 1.2;
+}
+
+.quarter {
+    width: 25%;
+}
+
+.haft {
+    width: 50%;
+}
+
+.three-quarter {
+    width: 75%;
+}
+
+.nav-list {
+    list-style: none;
+    display: flex;
+    flex-flow: column wrap;
+    align-items: stretch;
+    margin: 0;
+    padding: 0;
+}
+
+.nav-item {
+    width: 100%;
+    flex: 1;
+    display: flex;
+    flex-flow: row wrap;
+    align-items: center;
+    padding-left: 25px;
+    font-size: 20px;
+    font-weight: bold;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.nav-item a {
+    text-decoration: none;
+    color: #555;
+}
+
+.nav-item a:hover {
+    text-decoration: underline;
+}
+
+.nav-item:nth-child(1) {
+    background-color: #55efc4;
+}
+
+.nav-item:nth-child(2) {
+    background-color: #81ecec;
+}
+
+.nav-item:nth-child(3) {
+    background-color: #74b9ff;
+}
+
+.nav-item:nth-child(4) {
+    background-color: #a29bfe;
+}
+
+.nav-item:nth-child(5) {
+    background-color: #ffeaa7;
+}
