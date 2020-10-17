@@ -34,9 +34,15 @@ app.get("/complement", function (req, res) {
     }).end();
 });
 
-// except these route config above
-// NodeJs server allow client only access to the content in "./public" directory
+// NodeJS serve public directory
 app.use("/public", express.static("./public"));
 
-app.listen(3000);
-console.log("listening on http://localhost:3000");
+// NodeJS serve ./node_modules
+app.use(
+    "/popmotion",
+    express.static(__dirname + "/node_modules/popmotion/dist")
+);
+
+const port = process.env.PORT || 3000;
+app.listen(port);
+console.log(`listening on http://localhost:${port}`);
