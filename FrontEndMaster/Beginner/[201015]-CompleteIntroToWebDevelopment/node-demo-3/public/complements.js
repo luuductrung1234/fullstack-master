@@ -1,3 +1,5 @@
+const fetchingDataEvent = new Event("fetching-data");
+
 document
     .querySelector(".request-complement")
     .addEventListener("click", function () {
