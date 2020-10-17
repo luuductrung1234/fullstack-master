@@ -1,13 +1,13 @@
 {
     "folders": [
-		{
-			"name": "[!]",
-			"path": "."
-		},
-		{
-			"path": "FrontEndMaster"
-		}
-	],
+        // {
+        // 	"name": "[!]",
+        // 	"path": "."
+        // },
+        {
+            "path": "FrontEndMaster"
+        }
+    ],
     "settings": {
         "files.exclude": {
             "**/.git": true,
