@@ -7,11 +7,13 @@ html {
 *::after {
   box-sizing: inherit;
 }
+
 body {
   --pink: #ff1c68;
   --green: #14d790;
   --blue: #198fe3;
   --black: #21282d;
+
   color: #222;
   font-family: "PT Sans", sans-serif;
   height: 100vh;
