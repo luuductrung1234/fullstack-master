@@ -1,42 +1,46 @@
 html {
-    box-sizing: border-box;
+  box-sizing: border-box;
 }
 
-*, *:before, *:after {
-    box-sizing: inherit;
+*,
+*::before,
+*::after {
+  box-sizing: inherit;
 }
+
 body {
-    --pink: #FF1C68;
-    --green: #14D790;
-    --blue: #198FE3;
-    --black: #21282D;
-    color: #222;
-    font-family: 'PT Sans', sans-serif;
-    height: 100vh;
-    padding: 5px;
-    margin: 0;
-    display: flex;
-    justify-content: start;
-    flex-direction: column;
+  --pink: #ff1c68;
+  --green: #14d790;
+  --blue: #198fe3;
+  --black: #21282d;
+
+  color: #222;
+  font-family: "PT Sans", sans-serif;
+  height: 100vh;
+  padding: 5px;
+  margin: 0;
+  display: flex;
+  justify-content: start;
+  flex-direction: column;
 }
 
 .header {
-    margin-block-start: 0em;
-    margin-block-end: 0em;
+  margin-block-start: 0;
+  margin-block-end: 0;
 }
 
 .progress-icon {
-    height: 30px;
-    width: 30px;
-    display: inline;
+  height: 30px;
+  width: 30px;
+  display: inline;
 }
 
 .complement {
-    height: 3em;
-    padding: 5px;
-    border: 1px solid black;
+  height: 3em;
+  padding: 5px;
+  border: 1px solid black;
 }
 
 .request-complement {
-    height: 3em;
+  height: 3em;
 }

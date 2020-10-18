@@ -1,18 +1,24 @@
-# Deployed to the server
+# Node Demo 3
+
+Demo number 3 using `html`, `css`, `javascript`, `parcel`, `popmotion`, `nodejs`, `express`
+
+## Deployed to the server
 
 visit [website](https://node-demo-3.azurewebsites.net/)
 
-# Run on local
+## Run on local
 
 run the following command:
 
-```
+```bash
+#!/bin/bash
 $ node server.js
 ```
 
 or
 
-```
+```bash
+#!/bin/bash
 $ npm start
 ```
 
