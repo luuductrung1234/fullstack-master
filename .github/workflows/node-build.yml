@@ -6,12 +6,8 @@ name: Node.js CI
 on:
   push:
     branches: [ main ]
-    paths: 
-      - '**/FrontEndMaster/Beginner/[201015]-CompleteIntroToWebDevelopment/node-demo-3/**'
   pull_request:
     branches: [ main ]
-    paths: 
-      - '**/FrontEndMaster/Beginner/[201015]-CompleteIntroToWebDevelopment/node-demo-3/**'
 
 jobs:
   build:
