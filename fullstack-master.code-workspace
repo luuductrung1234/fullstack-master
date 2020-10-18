@@ -1,9 +1,9 @@
 {
     "folders": [
-        // {
-        // 	"name": "[!]",
-        // 	"path": "."
-        // },
+        {
+            "name": "[!] GitHub Action",
+            "path": ".github"
+        },
         {
             "path": "FrontEndMaster"
         }
