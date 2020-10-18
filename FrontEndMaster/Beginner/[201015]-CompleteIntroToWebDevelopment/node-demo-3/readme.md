@@ -1,6 +1,6 @@
 # Node Demo 3
 
-Demo number 3 using `html`, `css`, `javascript`, `parcel`, `popmotion`, `nodejs`, `express` _deploy v1.0.0_
+Demo number 3 using `html`, `css`, `javascript`, `parcel`, `popmotion`, `nodejs`, `express` _deploy v1.0.1_
 
 ## Deployed to the server
 
