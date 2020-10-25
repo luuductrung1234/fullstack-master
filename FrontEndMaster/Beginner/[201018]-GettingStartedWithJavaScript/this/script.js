@@ -1,25 +1,37 @@
+function ask(question) {
+  console.log(this.teacher, question);
+}
+
 // Implicit Binding Rule
 
-var workshop = {
+var teacher = "Trump";
+
+var workshop1 = {
   teacher: "Tom",
   ask(question) {
     console.log(this.teacher, question);
   },
 };
 
-workshop.ask("What is implicit binding?");
+workshop1.ask("What is implicit binding?");
+
+ask("Who is 'this' refer to?"); // in strict mode, 'this' would be undefined
+
+new ask("Why 'this' is dynamic?"); // in strict mode, 'this' would be undefined
 
 // Explicit Binding Rule
 
-function ask(question) {
-  console.log(this.teacher, question);
-}
-
-function otherClass() {
-  var myContext = {
+function workshop2() {
+  var context = {
     teacher: "Suzy",
   };
-  ask.call(myContext, "What is explicit binding?");
+  ask.call(context, "What is explicit binding?");
 }
 
-otherClass();
+workshop2();
+
+var workshop3 = {
+  teacher: "Lav",
+};
+
+ask.call(workshop3, "Is this work as I'm expected");
