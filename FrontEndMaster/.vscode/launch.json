@@ -1,0 +1,36 @@
+{
+  // Use IntelliSense to learn about possible attributes.
+  // Hover to view descriptions of existing attributes.
+  // For more information, visit: https://go.microsoft.com/fwlink/?linkid=830387
+  "version": "0.2.0",
+  "configurations": [
+    {
+      "name": "201018 (node)",
+      "type": "node",
+      "request": "launch",
+      "skipFiles": ["<node_internals>/**"],
+      "program": "${workspaceFolder}/Beginner/[201018]-GettingStartedWithJavaScript/${input:topic}/script.js"
+    },
+    {
+      "name": "201031 (node)",
+      "type": "node",
+      "request": "launch",
+      "skipFiles": ["<node_internals>/**"],
+      "program": "${workspaceFolder}/Beginner/[201031]-JavaScriptVM-EventLoop-Async-ScopeChains/${input:topic}/script.js"
+    },
+    {
+      "name": "201031 (browser)",
+      "type": "chrome",
+      "request": "launch",
+      "file": "${workspaceFolder}/Beginner/[201031]-JavaScriptVM-EventLoop-Async-ScopeChains/${input:topic}/index.html"
+    }
+  ],
+  "inputs": [
+    {
+      "id": "topic",
+      "type": "promptString",
+      "default": "",
+      "description": ""
+    }
+  ]
+}
