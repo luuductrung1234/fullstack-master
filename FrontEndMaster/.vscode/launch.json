@@ -5,11 +5,32 @@
   "version": "0.2.0",
   "configurations": [
     {
+      "name": "201018 (node)",
       "type": "node",
       "request": "launch",
-      "name": "Prototypes",
       "skipFiles": ["<node_internals>/**"],
-      "program": "${workspaceFolder}/Beginner/[201018]-GettingStartedWithJavaScript/prototypes/script.js"
+      "program": "${workspaceFolder}/Beginner/[201018]-GettingStartedWithJavaScript/${input:topic}/script.js"
+    },
+    {
+      "name": "201031 (node)",
+      "type": "node",
+      "request": "launch",
+      "skipFiles": ["<node_internals>/**"],
+      "program": "${workspaceFolder}/Beginner/[201031]-JavaScriptVM-EventLoop-Async-ScopeChains/${input:topic}/script.js"
+    },
+    {
+      "name": "201031 (browser)",
+      "type": "chrome",
+      "request": "launch",
+      "file": "${workspaceFolder}/Beginner/[201031]-JavaScriptVM-EventLoop-Async-ScopeChains/${input:topic}/index.html"
+    }
+  ],
+  "inputs": [
+    {
+      "id": "topic",
+      "type": "promptString",
+      "default": "",
+      "description": ""
     }
   ]
 }
